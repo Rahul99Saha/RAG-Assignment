@@ -1,0 +1,5 @@
+stage,median_ms
+Pipeline 1: retrieval (embed + FAISS top-10),4.901551998045761
+Pipeline 2: cross-encoder re-rank of 10,73.8512605021242
+Pipeline 2: total retrieval,79.64872900629416
+LLM generation (per answer),1409.6459790016524

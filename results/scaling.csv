@@ -1,0 +1,5 @@
+approach,seconds
+Bi-encoder over all 757 chunks,0.006976125005166978
+Cross-encoder over all 757 chunks,4.653098582988605
+Cross-encoder over top-10 only,0.06146761668412952
+"Cross-encoder over 1,000,000 chunks (extrapolated)",6146.7616684129525

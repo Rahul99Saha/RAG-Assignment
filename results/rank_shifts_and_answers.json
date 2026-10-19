@@ -1,0 +1,735 @@
+[
+  {
+    "category": "Exception / corner case",
+    "query": "Is fall protection needed while assessing workplace conditions before work begins?",
+    "gold": [
+      "C0014"
+    ],
+    "gold_rule": "1910.28(a)(2)(ii): the duty to have fall protection does NOT apply when inspecting, investigating or assessing workplace conditions before work starts or after it is complete.",
+    "rank_table": [
+      {
+        "chunk": "C0178",
+        "page": 90,
+        "bi_rank": 1,
+        "ce_rank": 7,
+        "shift": "#1 → #7",
+        "bi_score": 0.647,
+        "ce_score": 0.16,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0740",
+        "page": 369,
+        "bi_rank": 2,
+        "ce_rank": 6,
+        "shift": "#2 → #6",
+        "bi_score": 0.628,
+        "ce_score": 0.93,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0737",
+        "page": 368,
+        "bi_rank": 3,
+        "ce_rank": 1,
+        "shift": "#3 → #1",
+        "bi_score": 0.624,
+        "ce_score": 4.24,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "★ C0014",
+        "page": 8,
+        "bi_rank": 4,
+        "ce_rank": 2,
+        "shift": "#4 → #2",
+        "bi_score": 0.616,
+        "ce_score": 3.95,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0414",
+        "page": 208,
+        "bi_rank": 5,
+        "ce_rank": 5,
+        "shift": "#5 → #5",
+        "bi_score": 0.602,
+        "ce_score": 1.89,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0015",
+        "page": 8,
+        "bi_rank": 6,
+        "ce_rank": 4,
+        "shift": "#6 → #4",
+        "bi_score": 0.598,
+        "ce_score": 2.58,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0742",
+        "page": 370,
+        "bi_rank": 7,
+        "ce_rank": 3,
+        "shift": "#7 → #3",
+        "bi_score": 0.596,
+        "ce_score": 3.43,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0021",
+        "page": 11,
+        "bi_rank": 8,
+        "ce_rank": 8,
+        "shift": "#8 → #8",
+        "bi_score": 0.584,
+        "ce_score": -0.15,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0738",
+        "page": 368,
+        "bi_rank": 9,
+        "ce_rank": 9,
+        "shift": "#9 → #9",
+        "bi_score": 0.583,
+        "ce_score": -1.21,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0025",
+        "page": 13,
+        "bi_rank": 10,
+        "ce_rank": 10,
+        "shift": "#10 → #10",
+        "bi_score": 0.575,
+        "ce_score": -2.13,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "The provided context does not answer this.",
+    "answer2_reranked": "Based on the provided context, fall protection is not required when employers are inspecting, investigating, or assessing workplace conditions or work to be performed prior to the start of work, unless fall protection systems or equipment meeting the requirements of 1910.29 have been installed and are available for workers to use.\n\nRegulation supporting this answer: **1910.28(a)(2)(ii)**"
+  },
+  {
+    "category": "Exception / buried chunk",
+    "query": "Who can serve as the attendant for a confined space entry and can they monitor more than one space?",
+    "gold": [
+      "C0412"
+    ],
+    "gold_rule": "1910.269(e)(7): the attendant is not precluded from performing other duties outside the enclosed space, provided they do not distract from monitoring the entrants.",
+    "rank_table": [
+      {
+        "chunk": "C0201",
+        "page": 101,
+        "bi_rank": 1,
+        "ce_rank": 4,
+        "shift": "#1 → #4",
+        "bi_score": 0.573,
+        "ce_score": -5.62,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0445",
+        "page": 223,
+        "bi_rank": 2,
+        "ce_rank": 9,
+        "shift": "#2 → #9",
+        "bi_score": 0.565,
+        "ce_score": -9.59,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0411",
+        "page": 206,
+        "bi_rank": 3,
+        "ce_rank": 2,
+        "shift": "#3 → #2",
+        "bi_score": 0.554,
+        "ce_score": -0.26,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "★ C0412",
+        "page": 207,
+        "bi_rank": 4,
+        "ce_rank": 1,
+        "shift": "#4 → #1",
+        "bi_score": 0.547,
+        "ce_score": 1.48,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0410",
+        "page": 206,
+        "bi_rank": 5,
+        "ce_rank": 3,
+        "shift": "#5 → #3",
+        "bi_score": 0.503,
+        "ce_score": -3.79,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0196",
+        "page": 99,
+        "bi_rank": 6,
+        "ce_rank": 7,
+        "shift": "#6 → #7",
+        "bi_score": 0.489,
+        "ce_score": -7.77,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0194",
+        "page": 98,
+        "bi_rank": 7,
+        "ce_rank": 6,
+        "shift": "#7 → #6",
+        "bi_score": 0.485,
+        "ce_score": -7.7,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0193",
+        "page": 97,
+        "bi_rank": 8,
+        "ce_rank": 8,
+        "shift": "#8 → #8",
+        "bi_score": 0.483,
+        "ce_score": -8.3,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0195",
+        "page": 98,
+        "bi_rank": 9,
+        "ce_rank": 5,
+        "shift": "#9 → #5",
+        "bi_score": 0.467,
+        "ce_score": -6.86,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0029",
+        "page": 15,
+        "bi_rank": 10,
+        "ce_rank": 10,
+        "shift": "#10 → #10",
+        "bi_score": 0.458,
+        "ce_score": -10.62,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "The provided context does not answer this.",
+    "answer2_reranked": "The provided context does not answer this."
+  },
+  {
+    "category": "Negation & constraints",
+    "query": "Can an employee with a beard wear a tight-fitting respirator?",
+    "gold": [
+      "C0160",
+      "C0162"
+    ],
+    "gold_rule": "1910.134(f): tight-fitting facepieces must pass a fit test; 1910.134(g): the employer must prohibit conditions that may result in facepiece seal leakage.",
+    "rank_table": [
+      {
+        "chunk": "C0153",
+        "page": 77,
+        "bi_rank": 1,
+        "ce_rank": 6,
+        "shift": "#1 → #6",
+        "bi_score": 0.638,
+        "ce_score": -4.8,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0159",
+        "page": 80,
+        "bi_rank": 2,
+        "ce_rank": 2,
+        "shift": "#2 → #2",
+        "bi_score": 0.569,
+        "ce_score": -0.86,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0588",
+        "page": 295,
+        "bi_rank": 3,
+        "ce_rank": 5,
+        "shift": "#3 → #5",
+        "bi_score": 0.568,
+        "ce_score": -3.65,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0628",
+        "page": 315,
+        "bi_rank": 4,
+        "ce_rank": 9,
+        "shift": "#4 → #9",
+        "bi_score": 0.567,
+        "ce_score": -6.72,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0151",
+        "page": 76,
+        "bi_rank": 5,
+        "ce_rank": 7,
+        "shift": "#5 → #7",
+        "bi_score": 0.552,
+        "ce_score": -5.88,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "★ C0162",
+        "page": 82,
+        "bi_rank": 6,
+        "ce_rank": 3,
+        "shift": "#6 → #3",
+        "bi_score": 0.551,
+        "ce_score": -2.9,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0658",
+        "page": 330,
+        "bi_rank": 7,
+        "ce_rank": 8,
+        "shift": "#7 → #8",
+        "bi_score": 0.549,
+        "ce_score": -6.39,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "★ C0160",
+        "page": 81,
+        "bi_rank": 8,
+        "ce_rank": 1,
+        "shift": "#8 → #1",
+        "bi_score": 0.546,
+        "ce_score": 0.99,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0167",
+        "page": 84,
+        "bi_rank": 9,
+        "ce_rank": 4,
+        "shift": "#9 → #4",
+        "bi_score": 0.543,
+        "ce_score": -3.26,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0525",
+        "page": 264,
+        "bi_rank": 10,
+        "ce_rank": 10,
+        "shift": "#10 → #10",
+        "bi_score": 0.535,
+        "ce_score": -7.91,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "The provided context does not answer this.",
+    "answer2_reranked": "The provided context does not answer this."
+  },
+  {
+    "category": "Exception / role limit",
+    "query": "Who may remove another worker's lockout device?",
+    "gold": [
+      "C0209"
+    ],
+    "gold_rule": "1910.147(e)(3): each lock is removed by the employee who applied it; exception: removal under the employer's direction using a documented, trained procedure.",
+    "rank_table": [
+      {
+        "chunk": "C0211",
+        "page": 106,
+        "bi_rank": 1,
+        "ce_rank": 6,
+        "shift": "#1 → #6",
+        "bi_score": 0.714,
+        "ce_score": 1.09,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "★ C0209",
+        "page": 105,
+        "bi_rank": 2,
+        "ce_rank": 1,
+        "shift": "#2 → #1",
+        "bi_score": 0.694,
+        "ce_score": 5.05,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0407",
+        "page": 204,
+        "bi_rank": 3,
+        "ce_rank": 3,
+        "shift": "#3 → #3",
+        "bi_score": 0.669,
+        "ce_score": 3.43,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0409",
+        "page": 205,
+        "bi_rank": 4,
+        "ce_rank": 8,
+        "shift": "#4 → #8",
+        "bi_score": 0.626,
+        "ce_score": 0.19,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0203",
+        "page": 102,
+        "bi_rank": 5,
+        "ce_rank": 9,
+        "shift": "#5 → #9",
+        "bi_score": 0.623,
+        "ce_score": -1.75,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0208",
+        "page": 105,
+        "bi_rank": 6,
+        "ce_rank": 5,
+        "shift": "#6 → #5",
+        "bi_score": 0.595,
+        "ce_score": 1.81,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0210",
+        "page": 106,
+        "bi_rank": 7,
+        "ce_rank": 4,
+        "shift": "#7 → #4",
+        "bi_score": 0.587,
+        "ce_score": 1.99,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0410",
+        "page": 206,
+        "bi_rank": 8,
+        "ce_rank": 2,
+        "shift": "#8 → #2",
+        "bi_score": 0.586,
+        "ce_score": 4.39,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0202",
+        "page": 102,
+        "bi_rank": 9,
+        "ce_rank": 10,
+        "shift": "#9 → #10",
+        "bi_score": 0.562,
+        "ce_score": -3.57,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0408",
+        "page": 205,
+        "bi_rank": 10,
+        "ce_rank": 7,
+        "shift": "#10 → #7",
+        "bi_score": 0.558,
+        "ce_score": 0.64,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "Based on the provided context, when the authorized employee who applied the lockout or tagout device is not available to remove it, that device may be removed under the direction of the employer, provided that specific procedures and training for such removal have been developed, documented, and incorporated into the employer's energy control program, and the employer demonstrates that the procedure provides equivalent safety (1910.147(e)(3)).",
+    "answer2_reranked": "Based on the provided context, each lockout or tagout device must normally be removed by the employee who applied it (1910.147(e)(3)). However, as an exception under 1910.147(e)(3), when the authorized employee who applied the device is not available to remove it, that device may be removed under the direction of the employer, provided that specific procedures and training for such removal have been developed, documented, and incorporated into the employer's energy control program, and the employer demonstrates that the procedure provides equivalent safety (1910.147(e)(3)). Additionally, under 1910.269(d)(8)(v)(B), the system operator may place and remove lockout and tagout devices in place of the authorized employee under paragraphs (d)(4), (d)(6)(iv), and (d)(7)(iv) of this section."
+  },
+  {
+    "category": "Keyword trap (counter-example)",
+    "query": "Does a small company need a written fire prevention plan?",
+    "gold": [
+      "C0034"
+    ],
+    "gold_rule": "1910.39(b): fire prevention plan must be written, except employers with 10 or fewer employees may communicate it orally.",
+    "rank_table": [
+      {
+        "chunk": "★ C0034",
+        "page": 18,
+        "bi_rank": 1,
+        "ce_rank": 2,
+        "shift": "#1 → #2",
+        "bi_score": 0.621,
+        "ce_score": -0.62,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0433",
+        "page": 217,
+        "bi_rank": 2,
+        "ce_rank": 9,
+        "shift": "#2 → #9",
+        "bi_score": 0.558,
+        "ce_score": -7.54,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0222",
+        "page": 112,
+        "bi_rank": 3,
+        "ce_rank": 4,
+        "shift": "#3 → #4",
+        "bi_score": 0.552,
+        "ce_score": -2.27,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0714",
+        "page": 358,
+        "bi_rank": 4,
+        "ce_rank": 3,
+        "shift": "#4 → #3",
+        "bi_score": 0.527,
+        "ce_score": -1.64,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0035",
+        "page": 18,
+        "bi_rank": 5,
+        "ce_rank": 7,
+        "shift": "#5 → #7",
+        "bi_score": 0.521,
+        "ce_score": -5.21,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0645",
+        "page": 323,
+        "bi_rank": 6,
+        "ce_rank": 1,
+        "shift": "#6 → #1",
+        "bi_score": 0.519,
+        "ce_score": 1.17,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0722",
+        "page": 361,
+        "bi_rank": 7,
+        "ce_rank": 6,
+        "shift": "#7 → #6",
+        "bi_score": 0.492,
+        "ce_score": -4.07,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0629",
+        "page": 316,
+        "bi_rank": 8,
+        "ce_rank": 5,
+        "shift": "#8 → #5",
+        "bi_score": 0.487,
+        "ce_score": -2.67,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0713",
+        "page": 357,
+        "bi_rank": 9,
+        "ce_rank": 10,
+        "shift": "#9 → #10",
+        "bi_score": 0.472,
+        "ce_score": -9.63,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0621",
+        "page": 312,
+        "bi_rank": 10,
+        "ce_rank": 8,
+        "shift": "#10 → #8",
+        "bi_score": 0.467,
+        "ce_score": -5.26,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "Based on the provided context, a fire prevention plan must be in writing, kept in the workplace, and made available to employees for review, except that an employer with 10 or fewer employees may communicate the plan orally to employees (1910.39(b)).",
+    "answer2_reranked": "Based on the provided context, an employer with 10 or fewer employees is permitted to communicate the fire prevention plan orally rather than having it in writing (1910.39(b)). \n\nSupporting regulation: 1910.39(b)"
+  },
+  {
+    "category": "Keyword trap (counter-example)",
+    "query": "How often must fire extinguishers be hydrostatically tested?",
+    "gold": [
+      "C0224"
+    ],
+    "gold_rule": "1910.157(e)-(f): hydrostatic testing by trained persons at the intervals in Table L-1; stored-pressure dry chemical units emptied and maintained every 6 years.",
+    "rank_table": [
+      {
+        "chunk": "★ C0224",
+        "page": 113,
+        "bi_rank": 1,
+        "ce_rank": 1,
+        "shift": "#1 → #1",
+        "bi_score": 0.676,
+        "ce_score": 1.38,
+        "in_baseline_top3": true,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0234",
+        "page": 118,
+        "bi_rank": 2,
+        "ce_rank": 4,
+        "shift": "#2 → #4",
+        "bi_score": 0.518,
+        "ce_score": -5.31,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0225",
+        "page": 113,
+        "bi_rank": 3,
+        "ce_rank": 6,
+        "shift": "#3 → #6",
+        "bi_score": 0.502,
+        "ce_score": -7.35,
+        "in_baseline_top3": true,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0222",
+        "page": 112,
+        "bi_rank": 4,
+        "ce_rank": 3,
+        "shift": "#4 → #3",
+        "bi_score": 0.496,
+        "ce_score": -2.33,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0232",
+        "page": 117,
+        "bi_rank": 5,
+        "ce_rank": 7,
+        "shift": "#5 → #7",
+        "bi_score": 0.494,
+        "ce_score": -8.0,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0231",
+        "page": 116,
+        "bi_rank": 6,
+        "ce_rank": 10,
+        "shift": "#6 → #10",
+        "bi_score": 0.461,
+        "ce_score": -10.47,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0080",
+        "page": 41,
+        "bi_rank": 7,
+        "ce_rank": 5,
+        "shift": "#7 → #5",
+        "bi_score": 0.455,
+        "ce_score": -5.74,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0076",
+        "page": 39,
+        "bi_rank": 8,
+        "ce_rank": 2,
+        "shift": "#8 → #2",
+        "bi_score": 0.453,
+        "ce_score": 0.61,
+        "in_baseline_top3": false,
+        "in_rerank_top3": true
+      },
+      {
+        "chunk": "C0487",
+        "page": 244,
+        "bi_rank": 9,
+        "ce_rank": 8,
+        "shift": "#9 → #8",
+        "bi_score": 0.451,
+        "ce_score": -8.51,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      },
+      {
+        "chunk": "C0088",
+        "page": 45,
+        "bi_rank": 10,
+        "ce_rank": 9,
+        "shift": "#10 → #9",
+        "bi_score": 0.449,
+        "ce_score": -9.57,
+        "in_baseline_top3": false,
+        "in_rerank_top3": false
+      }
+    ],
+    "answer1_baseline": "The provided context does not answer this.",
+    "answer2_reranked": "The provided context does not answer this."
+  }
+]
